@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home2/maxvelua/public_html/testWebsites
+    - /bin/cp index.html $DEPLOYPATH
