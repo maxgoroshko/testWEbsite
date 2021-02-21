@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home2/maxvelua/public_html
-    - /bin/cp -R testWebsite $DEPLOYPATH
+    - /bin/cp index.html $DEPLOYPATH
